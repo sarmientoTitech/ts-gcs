@@ -17,7 +17,7 @@ const add: Add = (x) => {
 
 app.get('/', (req, res) => {
   add({ a: 1, b: 2 })
-  res.send('<h1>Hola</h1>')
+  res.send('<h1>Hola mundo</h1>')
 })
 
 app.listen(3001, () => {
